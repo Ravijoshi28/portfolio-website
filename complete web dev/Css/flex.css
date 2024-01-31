@@ -1,0 +1,39 @@
+.flex{
+    display: flex;
+}
+.item-center{
+    align-items: center;
+    
+}
+.justify{
+    justify-content: space-between;
+}
+.contact{
+padding:0.8rem 2rem;
+font-size:large;
+font-weight: bold;
+border:2px solid transparent ;
+}
+.btt:hover{
+    color:rgb(81, 99, 200);
+    background:transparent ;
+    transition-property: unset;
+}
+.btt{
+background: rgb(197, 220, 220);
+color:black;
+}
+.btn:hover{
+    color:rgb(81, 99, 200);
+    
+    border: aqua;
+    border-color: aqua;
+}
+.btn{
+    color: aqua;
+    background:transparent ;
+border-color: cyan;
+}
+.flex-1{
+    flex: 1;
+}

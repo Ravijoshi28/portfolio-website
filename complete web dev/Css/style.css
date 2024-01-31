@@ -1,0 +1,79 @@
+@import 'flex.css';
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+
+header{
+    background-color: rgb(24, 23, 23);
+    clip-path: polygon(0 0,100% 0,100% 100%, 78% 85%, 0 100%);
+     height:500px ;
+}
+.container{
+    max-width:  1152px; 
+    padding:0 15px;
+    margin:0 auto;
+    max-height:  800px;
+}
+
+header nav .navig a{
+color: aliceblue;
+text-decoration: none;
+margin-right: 2rem;
+font-size: 2.5rem ;
+}
+header nav .navig a:hover{
+    color: burlywood;
+    transition: all .4 ease;
+}
+
+header nav .self-image{
+    color:cyan ;
+}
+header nav{
+    padding: 2rem 0;
+}
+header nav .self-image{
+    padding:0 2rem;
+   
+}
+ .about{
+    color:aliceblue;
+}
+.main-box .image img{
+    width: 400px;
+}
+.main-box .About {
+    color: aliceblue;
+}
+.main-box .About h5{
+    font-size: 1.7rem;
+    color: rgb(84, 157, 157);
+}
+.main-box .About p{
+    margin-bottom :1.2rem; 
+}
+section{
+    padding: 3rem 0;
+}
+
+section.about .about-img{
+    height: 280px;
+    width: 400px;
+}
+section.about .about-para {
+    color: black;
+}
+section.about .about-para h1 {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+section.about .about-para h1 span{
+    color: rgb(85, 132, 132);
+}
+section.about .about-para h3{
+    font-weight: 1rem
+    margin-bottom: 1rem;
+}
